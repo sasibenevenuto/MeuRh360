@@ -1,0 +1,36 @@
+﻿using Business.Commands.Interfcaes;
+using Domain;
+using Domain.Commands;
+using Repository.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Business.Commands
+{
+    public class BUserCommand : IBUserCommand
+    {
+        private readonly IRUser _rUser;
+        public BUserCommand(IRUser rUser)
+        {
+            _rUser = rUser;
+        }
+
+        public async Task<int> Handler(UserAdd entity)
+        {
+            return await _rUser.Add(entity);
+        }
+
+        public async Task Handler(int userId)
+        {
+            await _rUser.Delete(userId);
+        }
+
+        public async Task<User> Handler(UserUpdate entity)
+        {
+            return await _rUser.Update(entity);
+        }
+    }
+}
