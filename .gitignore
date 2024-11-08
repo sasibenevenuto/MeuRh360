@@ -276,3 +276,13 @@ __pycache__/
 /MeuRh360/obj
 /packages/
 /.vs/
+/.vs/MeuRh360/v17/.suo
+/Business/obj/Debug/net8.0/Business.assets.cache
+/Business/obj/Debug/net8.0/Business.csproj.FileListAbsolute.txt
+/Domain/obj/Debug/net8.0/Domain.assets.cache
+/Domain/obj/Debug/net8.0/Domain.csproj.FileListAbsolute.txt
+/MeuRh360/obj/Debug/net8.0/apphost.exe
+/MeuRh360/obj/Debug/net8.0/MeuRh360.assets.cache
+/MeuRh360/obj/Debug/net8.0/MeuRh360.csproj.FileListAbsolute.txt
+/Repository/obj/Debug/net8.0/Repository.assets.cache
+/Repository/obj/Debug/net8.0/Repository.csproj.FileListAbsolute.txt
