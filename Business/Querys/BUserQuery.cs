@@ -24,7 +24,7 @@ namespace Business.Querys
 
         public async Task<User> Handler(int userId)
         {
-            return await _rUser.GetOne(userId);
+            return await _rUser.GetOne(new User() { UserId = userId});
         }
     }
 }

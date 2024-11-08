@@ -5,9 +5,11 @@ using Repository.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Business.Commands
 {
@@ -22,7 +24,22 @@ namespace Business.Commands
 
         public async Task Handler(CompanyAdd entity)
         {
-            await _rCompany.Add(entity);
+            await _rCompany.Add(new Company()
+            {
+                TypeCompany = entity.TypeCompany,
+                Name = entity.Name,
+                Cnpj = entity.Cnpj,
+                PostalCode = entity.PostalCode,
+                Address = entity.Address,
+                Neighborhood = entity.Neighborhood,
+                FederativeUnit = entity.FederativeUnit,
+                City = entity.City,
+                Complement = entity.Complement,
+                CellPhone = entity.CellPhone,
+                NameAdministrator = entity.NameAdministrator,
+                CpfAdministrator = entity.CpfAdministrator,
+                EmailAdministrator = entity.EmailAdministrator
+            });
         }
 
         public async Task Handler(int companyId)
@@ -32,7 +49,23 @@ namespace Business.Commands
 
         public async Task<Company> Handler(CompanyUpdate entity)
         {
-            return await _rCompany.Update(entity);
+            return await _rCompany.Update(new Company()
+            {
+                CompanyId = entity.Companyid,
+                TypeCompany = entity.TypeCompany,
+                Name = entity.Name,
+                Cnpj = entity.Cnpj,
+                PostalCode = entity.PostalCode,
+                Address = entity.Address,
+                Neighborhood = entity.Neighborhood,
+                FederativeUnit = entity.FederativeUnit,
+                City = entity.City,
+                Complement = entity.Complement,
+                CellPhone = entity.CellPhone,
+                NameAdministrator = entity.NameAdministrator,
+                CpfAdministrator = entity.CpfAdministrator,
+                EmailAdministrator = entity.EmailAdministrator
+            });
         }
     }
 }

@@ -27,7 +27,7 @@ namespace Domain.Commands
         {
             return new CompanyUpdate
             {
-                Companyid = model.Companyid,
+                Companyid = model.CompanyId,
                 TypeCompany = model.TypeCompany,
                 Name = model.Name,
                 Cnpj = model.Cnpj,

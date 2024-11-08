@@ -33,12 +33,12 @@ namespace MeuRh360.Controllers
             }
         }
 
-        [HttpGet("GetOne")]
-        public async Task<IActionResult> GetOne([FromBody] Company entity)
+        [HttpGet("GetOne/{companyId}")]
+        public async Task<IActionResult> GetOne(int companyId)
         {
             try
             {
-                return Ok(await _companyQuery.Handler(entity));
+                return Ok(await _companyQuery.Handler(companyId));
             }
             catch (Exception)
             {
@@ -74,7 +74,7 @@ namespace MeuRh360.Controllers
         }
 
         [HttpDelete]
-        public async Task<IActionResult> Delete([FromBody] int CompanyId)
+        public async Task<IActionResult> Delete([FromQuery] int CompanyId)
         {
             try
             {

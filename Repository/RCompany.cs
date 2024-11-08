@@ -18,23 +18,24 @@ namespace Repository
         }
         public async Task Add(Company entity)
         {
-            var query = @"INSERT INTO public.company(
-                                                    companyId, 
-                                                    typeCompany, 
+            var companyId = (await _repository.GetAll(@"SELECT MAX(""companyId"") AS companyId FROM public.company;"))?.FirstOrDefault()?.CompanyId ?? 0;
+            var query = $@"INSERT INTO public.company(
+                                                    ""companyId"", 
+                                                    ""typeCompany"", 
                                                     name, 
                                                     cnpj, 
-                                                    postalCode,
+                                                    ""postalCode"",
                                                     address, 
                                                     neighborhood, 
-                                                    federativeUnit, 
+                                                    ""federativeUnit"", 
                                                     city, 
                                                     complement, 
-                                                    cellPhone,
-                                                    nameAdministrator, 
-                                                    cpfAdministrator, 
-                                                    emailAdministrator) 
+                                                    ""cellPhone"",
+                                                    ""nameAdministrator"", 
+                                                    ""cpfAdministrator"", 
+                                                    ""emailAdministrator"") 
                                         VALUES (
-                                                    @CompanyId, 
+                                                    {++companyId}, 
                                                     @TypeCompany, 
                                                     @Name, 
                                                     @Cnpj, 

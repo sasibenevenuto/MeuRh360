@@ -9,7 +9,7 @@ namespace Business.Querys.Interfaces
 {
     public interface IBCompanyQuery
     {
-        Task<Company> Handler(Company entity);
+        Task<Company> Handler(int companyId);
         Task<IEnumerable<Company>> Handler();
     }
 }

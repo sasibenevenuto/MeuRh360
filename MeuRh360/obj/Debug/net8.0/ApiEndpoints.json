@@ -42,7 +42,7 @@
       {
         "Name": "CompanyId",
         "Type": "System.Int32",
-        "IsRequired": true
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -60,14 +60,14 @@
   {
     "ContainingType": "MeuRh360.Controllers.CompanyController",
     "Method": "GetOne",
-    "RelativePath": "api/Company/GetOne",
+    "RelativePath": "api/Company/GetOne/{companyId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "entity",
-        "Type": "Domain.Company",
+        "Name": "companyId",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

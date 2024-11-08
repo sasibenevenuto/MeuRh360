@@ -38,16 +38,16 @@ namespace Repository
             return await _repository.GetAll("SELECT * FROM public.user;");
         }
 
-        public async Task<User> GetOne(int userId)
+        public async Task<User> GetOne(User user)
         {
-            return await _repository.GetOne(@"SELECT * FROM public.user where ""userId"" = @UserId;", new User() { UserId = userId });
+            return await _repository.GetOne(@"SELECT * FROM public.user where ""userId"" = @UserId;", user);
         }
 
         public async Task<User> Update(User entity)
         {
-            var query = @"UPDATE public.user
-	                            SET userId=@UserId, name=@Name, email=@Email, password=@Password, passwordConfirm=@PasswordConfirm, acceptanceTerms=@AcceptanceTerms
-	                            WHERE userId = @UserId;";
+            var query = $@"UPDATE public.user
+	                            SET name=@Name, email=@Email, password=@Password, ""passwordConfirm""=@PasswordConfirm, ""acceptanceTerms""=CAST({Convert.ToInt32(entity.AcceptanceTerms)} AS bit)
+	                            WHERE ""userId"" = @UserId;";
             return await _repository.Update(query, entity);
         }
     }
