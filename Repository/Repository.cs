@@ -22,13 +22,9 @@ namespace Repository
             _connection = new NpgsqlConnection(options.Value.ConnectionStrings.MeuRh360);
         }
 
-        public async Task<int> Add(string query, TEntity entity)
+        public async Task Add(string query, TEntity entity)
         {
-            int result;
-
-            result = await _connection.ExecuteAsync(query, entity);
-
-            return result;
+            await _connection.ExecuteAsync(query, entity);
         }
 
         public async Task Delete(string query)

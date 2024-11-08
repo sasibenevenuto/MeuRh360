@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1323B46D-08D6-456A-8894-EAD0B3128391}|MeuRh360\\MeuRh360.csproj|c:\\users\\sasib\\source\\repos\\meurh360\\meurh360\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1323B46D-08D6-456A-8894-EAD0B3128391}|MeuRh360\\MeuRh360.csproj|solutionrelative:meurh360\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1323B46D-08D6-456A-8894-EAD0B3128391}|MeuRh360\\MeuRh360.csproj|c:\\users\\sasib\\source\\repos\\meurh360\\meurh360\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1323B46D-08D6-456A-8894-EAD0B3128391}|MeuRh360\\MeuRh360.csproj|solutionrelative:meurh360\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CF864B11-6BE4-4D15-9701-3E6F47184460}|Repository\\Repository.csproj|c:\\users\\sasib\\source\\repos\\meurh360\\repository\\ruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF864B11-6BE4-4D15-9701-3E6F47184460}|Repository\\Repository.csproj|solutionrelative:repository\\ruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1323B46D-08D6-456A-8894-EAD0B3128391}|MeuRh360\\MeuRh360.csproj|c:\\users\\sasib\\source\\repos\\meurh360\\meurh360\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1323B46D-08D6-456A-8894-EAD0B3128391}|MeuRh360\\MeuRh360.csproj|solutionrelative:meurh360\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1323B46D-08D6-456A-8894-EAD0B3128391}|MeuRh360\\MeuRh360.csproj|c:\\users\\sasib\\source\\repos\\meurh360\\meurh360\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1323B46D-08D6-456A-8894-EAD0B3128391}|MeuRh360\\MeuRh360.csproj|solutionrelative:meurh360\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81865044-7121-43B3-A319-EE1E43B1A6A5}|Business\\Business.csproj|c:\\users\\sasib\\source\\repos\\meurh360\\business\\querys\\bcompanyquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81865044-7121-43B3-A319-EE1E43B1A6A5}|Business\\Business.csproj|solutionrelative:business\\querys\\bcompanyquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1323B46D-08D6-456A-8894-EAD0B3128391}|MeuRh360\\MeuRh360.csproj|c:\\users\\sasib\\source\\repos\\meurh360\\meurh360\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1323B46D-08D6-456A-8894-EAD0B3128391}|MeuRh360\\MeuRh360.csproj|solutionrelative:meurh360\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{81865044-7121-43B3-A319-EE1E43B1A6A5}|Business\\Business.csproj|c:\\users\\sasib\\source\\repos\\meurh360\\business\\querys\\buserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81865044-7121-43B3-A319-EE1E43B1A6A5}|Business\\Business.csproj|solutionrelative:business\\querys\\buserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF864B11-6BE4-4D15-9701-3E6F47184460}|Repository\\Repository.csproj|c:\\users\\sasib\\source\\repos\\meurh360\\repository\\interfaces\\iruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF864B11-6BE4-4D15-9701-3E6F47184460}|Repository\\Repository.csproj|solutionrelative:repository\\interfaces\\iruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81865044-7121-43B3-A319-EE1E43B1A6A5}|Business\\Business.csproj|c:\\users\\sasib\\source\\repos\\meurh360\\business\\querys\\interfaces\\ibuserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81865044-7121-43B3-A319-EE1E43B1A6A5}|Business\\Business.csproj|solutionrelative:business\\querys\\interfaces\\ibuserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,88 +38,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\MeuRh360\\appsettings.json",
-              "RelativeDocumentMoniker": "MeuRh360\\appsettings.json",
-              "ToolTip": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\MeuRh360\\appsettings.json",
-              "RelativeToolTip": "MeuRh360\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-07T20:28:29.587Z",
+              "DocumentIndex": 3,
+              "Title": "IRUser.cs",
+              "DocumentMoniker": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\Repository\\Interfaces\\IRUser.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IRUser.cs",
+              "ToolTip": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\Repository\\Interfaces\\IRUser.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IRUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T12:52:09.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\MeuRh360\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "MeuRh360\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\MeuRh360\\appsettings.Development.json",
-              "RelativeToolTip": "MeuRh360\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-07T20:28:26.701Z"
+              "DocumentIndex": 0,
+              "Title": "RUser.cs",
+              "DocumentMoniker": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\Repository\\RUser.cs",
+              "RelativeDocumentMoniker": "Repository\\RUser.cs",
+              "ToolTip": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\Repository\\RUser.cs",
+              "RelativeToolTip": "Repository\\RUser.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCoAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T12:51:09.379Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "IBUserQuery.cs",
+              "DocumentMoniker": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\Business\\Querys\\Interfaces\\IBUserQuery.cs",
+              "RelativeDocumentMoniker": "Business\\Querys\\Interfaces\\IBUserQuery.cs",
+              "ToolTip": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\Business\\Querys\\Interfaces\\IBUserQuery.cs",
+              "RelativeToolTip": "Business\\Querys\\Interfaces\\IBUserQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T12:50:57.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BUserQuery.cs",
               "DocumentMoniker": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\Business\\Querys\\BUserQuery.cs",
               "RelativeDocumentMoniker": "Business\\Querys\\BUserQuery.cs",
               "ToolTip": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\Business\\Querys\\BUserQuery.cs",
               "RelativeToolTip": "Business\\Querys\\BUserQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAhwBoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T20:25:47.104Z"
+              "WhenOpened": "2024-11-08T12:50:47.471Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\MeuRh360\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "MeuRh360\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\MeuRh360\\Controllers\\UserController.cs",
               "RelativeToolTip": "MeuRh360\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAhwCgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T20:18:16.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BCompanyQuery.cs",
-              "DocumentMoniker": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\Business\\Querys\\BCompanyQuery.cs",
-              "RelativeDocumentMoniker": "Business\\Querys\\BCompanyQuery.cs",
-              "ToolTip": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\Business\\Querys\\BCompanyQuery.cs",
-              "RelativeToolTip": "Business\\Querys\\BCompanyQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T20:18:16.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\MeuRh360\\Program.cs",
-              "RelativeDocumentMoniker": "MeuRh360\\Program.cs",
-              "ToolTip": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\MeuRh360\\Program.cs",
-              "RelativeToolTip": "MeuRh360\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwCYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T20:17:54.021Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CompanyController.cs",
-              "DocumentMoniker": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\MeuRh360\\Controllers\\CompanyController.cs",
-              "RelativeDocumentMoniker": "MeuRh360\\Controllers\\CompanyController.cs",
-              "ToolTip": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\MeuRh360\\Controllers\\CompanyController.cs",
-              "RelativeToolTip": "MeuRh360\\Controllers\\CompanyController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T20:17:50.793Z"
+              "WhenOpened": "2024-11-08T12:49:52.565Z",
+              "EditorCaption": ""
             }
           ]
         }

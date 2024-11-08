@@ -13,3 +13,4 @@ C:\Users\sasib\source\repos\MeuRh360\Repository\obj\Debug\net8.0\Repository.dll
 C:\Users\sasib\source\repos\MeuRh360\Repository\obj\Debug\net8.0\refint\Repository.dll
 C:\Users\sasib\source\repos\MeuRh360\Repository\obj\Debug\net8.0\Repository.pdb
 C:\Users\sasib\source\repos\MeuRh360\Repository\obj\Debug\net8.0\ref\Repository.dll
+C:\Users\sasib\source\repos\MeuRh360\Repository\obj\Debug\net8.0\Repository.sourcelink.json

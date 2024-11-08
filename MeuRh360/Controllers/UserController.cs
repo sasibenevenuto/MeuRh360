@@ -33,12 +33,12 @@ namespace MeuRh360.Controllers
             }
         }
 
-        [HttpGet("GetOne")]
-        public async Task<IActionResult> GetOne([FromBody] User entity)
+        [HttpGet("GetOne/{userId}")]
+        public async Task<IActionResult> GetOne(int userId)
         {
             try
             {
-                return Ok(await _userQuery.Handler(entity));
+                return Ok(await _userQuery.Handler(userId));
             }
             catch (Exception)
             {

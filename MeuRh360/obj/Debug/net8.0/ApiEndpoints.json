@@ -134,14 +134,14 @@
   {
     "ContainingType": "MeuRh360.Controllers.UserController",
     "Method": "GetOne",
-    "RelativePath": "api/User/GetOne",
+    "RelativePath": "api/User/GetOne/{userId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "entity",
-        "Type": "Domain.User",
+        "Name": "userId",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

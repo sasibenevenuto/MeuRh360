@@ -9,7 +9,7 @@ namespace Business.Querys.Interfaces
 {
     public interface IBUserQuery
     {
-        Task<User> Handler(User entity);
+        Task<User> Handler(int userId);
         Task<IEnumerable<User>> Handler();
     }
 }

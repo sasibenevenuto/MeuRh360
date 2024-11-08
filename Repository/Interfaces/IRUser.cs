@@ -13,7 +13,7 @@ namespace Repository.Interfaces
         Task<int> Add(User entity);
         Task<User> Update(User entity);
         Task Delete(int userId);
-        Task<User> GetOne(User entity);
+        Task<User> GetOne(int userId);
         Task<IEnumerable<User>> GetAll();
     }
 }

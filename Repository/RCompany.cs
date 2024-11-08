@@ -16,7 +16,7 @@ namespace Repository
         {
             _repository = repository;
         }
-        public async Task<int> Add(Company entity)
+        public async Task Add(Company entity)
         {
             var query = @"INSERT INTO public.company(
                                                     companyId, 
@@ -48,7 +48,7 @@ namespace Repository
                                                     @NameAdministrator, 
                                                     @CpfAdministrator, 
                                                     @EmailAdministrator);";
-            return await _repository.Add(query, entity);
+            await _repository.Add(query, entity);
         }
 
         public async Task Delete(int companyId)

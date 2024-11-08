@@ -20,7 +20,14 @@ namespace Business.Commands
 
         public async Task<int> Handler(UserAdd entity)
         {
-            return await _rUser.Add(entity);
+            return await _rUser.Add(new User()
+            {
+                Name = entity.Name,
+                Email = entity.Email,
+                Password = entity.Password,
+                PasswordConfirm = entity.PasswordConfirm,
+                AcceptanceTerms = entity.AcceptanceTerms,
+            });            
         }
 
         public async Task Handler(int userId)
@@ -30,7 +37,15 @@ namespace Business.Commands
 
         public async Task<User> Handler(UserUpdate entity)
         {
-            return await _rUser.Update(entity);
+           return await _rUser.Update(new User()
+           {
+               UserId = entity.UserId,
+               Name = entity.Name,
+               Email = entity.Email,    
+               Password = entity.Password,
+               PasswordConfirm = entity.PasswordConfirm,
+               AcceptanceTerms = entity.AcceptanceTerms
+           });           
         }
     }
 }

@@ -9,7 +9,7 @@ namespace Repository.Interfaces
 {
     public interface IRCompany
     {
-        Task<int> Add(Company entity);
+        Task Add(Company entity);
         Task<Company> Update(Company entity);
         Task Delete(int companyId);
         Task<Company> GetOne(Company entity);

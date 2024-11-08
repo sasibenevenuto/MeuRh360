@@ -10,7 +10,7 @@ namespace Business.Commands.Interfcaes
 {
     public interface IBCompanyCommand
     {
-        Task<int> Handler(CompanyAdd entity);
+        Task Handler(CompanyAdd entity);
         Task<Company> Handler(CompanyUpdate entity);
         Task Handler(int companyId);
     }

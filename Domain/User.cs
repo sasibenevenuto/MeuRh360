@@ -15,31 +15,6 @@ namespace Domain
         public string Email { get; set; }
         public string Password { get; set; }
         public string PasswordConfirm { get; set; }
-        public bool AcceptanceTerms { get; set; }
-
-        public static implicit operator User(UserAdd model)
-        {
-            return new User
-            {                
-                Name = model.Name,
-                Email = model.Email,
-                Password = model.Password,
-                PasswordConfirm = model.PasswordConfirm,
-                AcceptanceTerms = model.AcceptanceTerms
-            };
-        }
-
-        public static implicit operator User(UserUpdate model)
-        {
-            return new User
-            {
-                UserId = model.UserId,
-                Name = model.Name,
-                Email = model.Email,
-                Password = model.Password,
-                PasswordConfirm = model.PasswordConfirm,
-                AcceptanceTerms = model.AcceptanceTerms
-            };
-        }
+        public bool AcceptanceTerms { get; set; }      
     }
 }

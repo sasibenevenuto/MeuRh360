@@ -20,14 +20,17 @@ namespace Repository
 
         public async Task<int> Add(User entity)
         {
-            var query = @"INSERT INTO public.user(userId, name, email, password, passwordConfirm, acceptanceTerms) 
-                                        VALUES (@UserId, @Name, @Email, @Password, @PasswordConfirm, @AcceptanceTerms);";
-            return await _repository.Add(query, entity);
+            var userId = (await _repository.GetAll(@"SELECT MAX(""userId"") AS userId FROM public.""user"";"))?.FirstOrDefault()?.UserId ?? 0;
+
+            var query = $@"INSERT INTO public.user(""userId"",name, email, password, ""passwordConfirm"", ""acceptanceTerms"") 
+                                        VALUES ({++userId},@Name, @Email, @Password, @PasswordConfirm, CAST({Convert.ToInt32(entity.AcceptanceTerms)} AS bit));";
+            await _repository.Add(query, entity);
+            return await Task.FromResult(userId);
         }
 
         public async Task Delete(int userId)
         {
-            await _repository.Delete($"DELETE FROM public.user WHERE userId = {userId};");
+            await _repository.Delete($@"DELETE FROM public.user WHERE ""userId"" = {userId};");
         }
 
         public async Task<IEnumerable<User>> GetAll()
@@ -35,9 +38,9 @@ namespace Repository
             return await _repository.GetAll("SELECT * FROM public.user;");
         }
 
-        public async Task<User> GetOne(User entity)
+        public async Task<User> GetOne(int userId)
         {
-            return await _repository.GetOne("SELECT * FROM public.user where userId = @UserId;", entity);
+            return await _repository.GetOne(@"SELECT * FROM public.user where ""userId"" = @UserId;", new User() { UserId = userId });
         }
 
         public async Task<User> Update(User entity)

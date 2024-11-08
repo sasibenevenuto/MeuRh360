@@ -20,9 +20,9 @@ namespace Business.Commands
             _rCompany = rCompany;
         }
 
-        public async Task<int> Handler(CompanyAdd entity)
+        public async Task Handler(CompanyAdd entity)
         {
-            return await _rCompany.Add(entity);
+            await _rCompany.Add(entity);
         }
 
         public async Task Handler(int companyId)

@@ -43,3 +43,4 @@ C:\Users\sasib\source\repos\MeuRh360\MeuRh360\obj\Debug\net8.0\refint\MeuRh360.d
 C:\Users\sasib\source\repos\MeuRh360\MeuRh360\obj\Debug\net8.0\MeuRh360.pdb
 C:\Users\sasib\source\repos\MeuRh360\MeuRh360\obj\Debug\net8.0\MeuRh360.genruntimeconfig.cache
 C:\Users\sasib\source\repos\MeuRh360\MeuRh360\obj\Debug\net8.0\ref\MeuRh360.dll
+C:\Users\sasib\source\repos\MeuRh360\MeuRh360\obj\Debug\net8.0\MeuRh360.sourcelink.json

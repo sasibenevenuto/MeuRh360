@@ -22,9 +22,9 @@ namespace Business.Querys
             return await _rUser.GetAll();
         }
 
-        public async Task<User> Handler(User entity)
+        public async Task<User> Handler(int userId)
         {
-            return await _rUser.GetOne(entity);
+            return await _rUser.GetOne(userId);
         }
     }
 }

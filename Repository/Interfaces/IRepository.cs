@@ -9,7 +9,7 @@ namespace Repository.Interfaces
 {
     public interface IRepository<TEntity> where TEntity : ModelBase
     {
-        Task<int> Add(string query, TEntity entity);
+        Task Add(string query, TEntity entity);
         Task<TEntity> Update(string query, TEntity entity);
         Task Delete(string query);
         Task<TEntity> GetOne(string query, TEntity entity);

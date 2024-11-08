@@ -51,7 +51,8 @@ namespace MeuRh360.Controllers
         {
             try
             {
-                return Ok(await _companyCommand.Handler(command));
+                await _companyCommand.Handler(command);
+                return Ok("Empresa criada com sucesso");
             }
             catch (Exception)
             {
