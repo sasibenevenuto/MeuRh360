@@ -46,8 +46,7 @@
               "RelativeToolTip": "Repository\\Interfaces\\IRUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T12:52:09.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T12:52:09.66Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "Repository\\RUser.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAQwCoAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T12:51:09.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T12:51:09.379Z"
             },
             {
               "$type": "Document",
@@ -72,8 +70,7 @@
               "RelativeToolTip": "Business\\Querys\\Interfaces\\IBUserQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T12:50:57.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T12:50:57.391Z"
             },
             {
               "$type": "Document",
@@ -85,8 +82,7 @@
               "RelativeToolTip": "Business\\Querys\\BUserQuery.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAhwBoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T12:50:47.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T12:50:47.471Z"
             },
             {
               "$type": "Document",
@@ -96,7 +92,7 @@
               "RelativeDocumentMoniker": "MeuRh360\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\MeuRh360\\Controllers\\UserController.cs",
               "RelativeToolTip": "MeuRh360\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAhwCgAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T12:49:52.565Z",
               "EditorCaption": ""
