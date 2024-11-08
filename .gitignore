@@ -4,8 +4,8 @@
 
 /Business/bin
 /Business/obj
-/Model/bin
-/Model/obj
+/Domain/bin
+/Domain/obj
 /Repository/bin
 /Repository/obj
 /Resources/bin
