@@ -4,24 +4,13 @@
 
 /Business/bin
 /Business/obj
-/Context/bin
-/Context/obj
-/Database/bin
-/Database/obj
-/Identity/bin
-/Identity/obj
-/Ioc/bin
-/Ioc/obj
 /Model/bin
 /Model/obj
 /Repository/bin
 /Repository/obj
 /Resources/bin
 /Resources/obj
-/WebUI/bin
-/WebUI/obj
+/MeuRh360/bin
+/MeuRh360/obj
 /packages/
 /.vs/
-/WebUI/App_Data/Log
-/Database/Database.dbmdl
-/Database/Database.jfm
