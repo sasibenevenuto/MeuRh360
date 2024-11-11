@@ -54,7 +54,7 @@ namespace Repository
 
         public async Task Delete(int companyId)
         {
-            await _repository.Delete($"DELETE FROM public.company WHERE companyId = {companyId};");
+            await _repository.Delete($@"DELETE FROM public.company WHERE ""companyId"" = {companyId};");
         }
 
         public async Task<IEnumerable<Company>> GetAll()
@@ -64,27 +64,26 @@ namespace Repository
 
         public async Task<Company> GetOne(Company entity)
         {
-            return await _repository.GetOne("SELECT * FROM public.company where companyId = @CompanyId;", entity);
+            return await _repository.GetOne(@"SELECT * FROM public.company where ""companyId"" = @CompanyId;", entity);
         }
 
         public async Task<Company> Update(Company entity)
         {
             var query = @"UPDATE public.company SET 
-                                                companyId=@CompanyId, 
-                                                typeCompany=@TypeCompany, 
+                                                ""typeCompany""=@TypeCompany, 
                                                 name=@Name, 
                                                 cnpj=@Cnpj, 
-                                                postalCode=@PostalCode, 
+                                                ""postalCode""=@PostalCode, 
                                                 address=@Address, 
                                                 neighborhood=@Neighborhood, 
-                                                federativeUnit=@FederativeUnit, 
+                                                ""federativeUnit""=@FederativeUnit, 
                                                 city=@City, 
                                                 complement=@Complement, 
-                                                cellPhone=@CellPhone, 
-                                                nameAdministrator=@NameAdministrator, 
-                                                cpfAdministrator=@CpfAdministrator, 
-                                                emailAdministrator=@EmailAdministrator 
-                                        WHERE companyId = @CompanyId;";
+                                                ""cellPhone""=@CellPhone, 
+                                                ""nameAdministrator""=@NameAdministrator, 
+                                                ""cpfAdministrator""=@CpfAdministrator, 
+                                                ""emailAdministrator""=@EmailAdministrator 
+                                        WHERE ""companyId"" = @CompanyId;";
             return await _repository.Update(query, entity);
         }
     }
