@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF864B11-6BE4-4D15-9701-3E6F47184460}|Repository\\Repository.csproj|c:\\users\\sasib\\source\\repos\\meurh360\\repository\\rcompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF864B11-6BE4-4D15-9701-3E6F47184460}|Repository\\Repository.csproj|solutionrelative:repository\\rcompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08389999-D8A0-4014-8F41-D62569CBF7C8}|TestBusiness\\TestBusiness.csproj|c:\\users\\sasib\\source\\repos\\meurh360\\testbusiness\\company\\repositorycompanymocktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08389999-D8A0-4014-8F41-D62569CBF7C8}|TestBusiness\\TestBusiness.csproj|solutionrelative:testbusiness\\company\\repositorycompanymocktest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08389999-D8A0-4014-8F41-D62569CBF7C8}|TestBusiness\\TestBusiness.csproj|c:\\users\\sasib\\source\\repos\\meurh360\\testbusiness\\companyttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08389999-D8A0-4014-8F41-D62569CBF7C8}|TestBusiness\\TestBusiness.csproj|solutionrelative:testbusiness\\companyttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepositoryCompanyMockTest.cs",
+              "DocumentMoniker": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\TestBusiness\\Company\\RepositoryCompanyMockTest.cs",
+              "RelativeDocumentMoniker": "TestBusiness\\Company\\RepositoryCompanyMockTest.cs",
+              "ToolTip": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\TestBusiness\\Company\\RepositoryCompanyMockTest.cs",
+              "RelativeToolTip": "TestBusiness\\Company\\RepositoryCompanyMockTest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T13:35:59.027Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RCompany.cs",
-              "DocumentMoniker": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\Repository\\RCompany.cs",
-              "RelativeDocumentMoniker": "Repository\\RCompany.cs",
-              "ToolTip": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\Repository\\RCompany.cs",
-              "RelativeToolTip": "Repository\\RCompany.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwEIAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CompanytTest.cs",
+              "DocumentMoniker": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\TestBusiness\\CompanytTest.cs",
+              "RelativeDocumentMoniker": "TestBusiness\\CompanytTest.cs",
+              "ToolTip": "C:\\Users\\sasib\\source\\repos\\MeuRh360\\TestBusiness\\CompanytTest.cs",
+              "RelativeToolTip": "TestBusiness\\CompanytTest.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDUAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T12:11:50.337Z",
+              "WhenOpened": "2024-11-11T13:35:48.026Z",
               "EditorCaption": ""
             }
           ]
