@@ -287,3 +287,6 @@ __pycache__/
 /Repository/obj/Debug/net8.0/Repository.assets.cache
 /Repository/obj/Debug/net8.0/Repository.csproj.FileListAbsolute.txt
 /.vs/MeuRh360/DesignTimeBuild/.dtbcache.v2
+/.vs/MeuRh360/v17/.futdcache.v2
+/.vs/ProjectEvaluation/meurh360.metadata.v9.bin
+/.vs/ProjectEvaluation/meurh360.projects.v9.bin
